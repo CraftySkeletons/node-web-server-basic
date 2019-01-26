@@ -42,7 +42,7 @@ hbs.registerHelper('shoutText', (text) => {
 // Route handler (Home)
 app.get('/', (req, res) => {
     res.render('home.hbs', {
-        pageTitle: 'Home Page',
+        pageTitle: 'Home',
         welcomeMessage: 'Welcome'
     });
 });
@@ -50,7 +50,14 @@ app.get('/', (req, res) => {
 // About
 app.get('/about', (req, res) => {
     res.render('about.hbs', {
-        pageTitle: 'About Page'
+        pageTitle: 'About'
+    });
+});
+
+// News
+app.get('/news', (req, res) => {
+    res.render('news.hbs', {
+        pageTitle: 'News'
     });
 });
 
