@@ -1,6 +1,34 @@
+<style>
+    .head1 {
+        font-size: medium;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(36, 41, 53);
+        border: 4px solid rgb(36, 41, 53);
+        color:rgb(49, 94, 121);
+        border-right-color: rgb(185, 102, 7);
+        border-left-color: rgb(185, 102, 7);
+        padding: 1px;
+    }
+    .pstyle1 {
+        font-size: 15px; font-family:'Courier New', Courier, monospace; background-color: rgb(36, 41, 53); border: 1px solid rgb(45, 57, 85);
+        border-right-color: rgb(185, 102, 7); border-bottom-color: rgb(185, 102, 7); border-right-width: 2px; border-bottom-width: 1px;
+        width: 30%; color:rgb(49, 94, 121);
+    }
+    .pstyle2 {
+        font-size: 15px; font-family:'Courier New', Courier, monospace; background-color: rgb(36, 41, 53); border: 1px solid rgb(45, 57, 85);
+        border-right-color: rgb(185, 102, 7); border-bottom-color: rgb(185, 102, 7); border-right-width: 2px; border-bottom-width: 1px;
+        width: 29.5%; color:rgb(49, 94, 121);
+    }
+    .pstyle3 {
+        font-size: 15px; font-family:'Courier New', Courier, monospace; background-color: rgb(36, 41, 53); border: 1px solid rgb(45, 57, 85);
+        border-right-color: rgb(185, 102, 7); border-bottom-color: rgb(185, 102, 7); border-right-width: 2px; border-bottom-width: 1px;
+        width: 29%; color:rgb(49, 94, 121);
+    }
+</style>
+
 <header>
-    <h1>{{pageTitle}}</h1>
-    <p><a href="/">Home</a></p>
-    <p><a href="/about">About</a></p>
-    <p><a href="/news">News</a></p>
+    <h1 class="head1">{{pageTitle}}</h1>
+    <p class="pstyle1" style="color:rgb(235, 163, 68);"><a href="/">- Overview</a></p>
+    <p class="pstyle2" style="color:rgb(235, 163, 68);"><a href="/about">- About</a></p>
+    <p class="pstyle3" style="color:rgb(235, 163, 68);"><a href="/news">- News</a></p>
 </header>

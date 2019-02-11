@@ -42,22 +42,22 @@ hbs.registerHelper('shoutText', (text) => {
 // Route handler (Home)
 app.get('/', (req, res) => {
     res.render('home.hbs', {
-        pageTitle: 'Home',
-        welcomeMessage: 'Welcome'
+        pageTitle: './	C	R	A	F	T	Y			S	K	E	L	E	T	O	N	S	-	/'
+        // welcomeMessage: 'Welcome'
     });
 });
 
 // About
 app.get('/about', (req, res) => {
     res.render('about.hbs', {
-        pageTitle: 'About'
+        pageTitle: './	C	R	A	F	T	Y			S	K	E	L	E	T	O	N	S	-	/'
     });
 });
 
 // News
 app.get('/news', (req, res) => {
     res.render('news.hbs', {
-        pageTitle: 'News'
+        pageTitle: './	C	R	A	F	T	Y			S	K	E	L	E	T	O	N	S	-	/'
     });
 });
 
