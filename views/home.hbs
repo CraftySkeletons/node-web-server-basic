@@ -7,7 +7,7 @@
         align-content: center;
         padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 10px;
         text-align: center; color:rgb(99, 175, 192); font-family:'Courier New', Courier, monospace; font-weight: lighter; font-size: 12px;
-        background-color:rgb(48, 55, 61); border-color: rgb(50, 71, 88); width: 30%; border-radius: 4px; border-style: solid;
+        background-color:rgb(48, 55, 61); border-color: rgb(50, 71, 88); width: 570px; border-radius: 4px; border-style: solid;
         border-width: thin;
     }
     .bpanel1 {
@@ -25,7 +25,8 @@
         <meta charset="utf-8">
         <title>Home Page</title>
     </head>
-    <body style="background-color:rgb(22, 23, 23);">
+    <div style="width: 100%; max-width: 1920px; margin: 0 auto;">
+     <body style="background-color:rgb(22, 23, 23);">
         {{> header}}
             <p class="p1" style="text-align: center;">| Apps |</p>
         <div>
@@ -36,7 +37,7 @@
             <p class="panel1">Join the community blog at http://www.example.bonesblah.net</p>
         </div>
         <br> <br> <br>
-        <div style="display:table; width: 100%; table-layout:fixed; border-spacing: 10px;">
+        <div style="display:table; width: 100%; max-width: 1920px; margin: 0 auto; table-layout:fixed; border-spacing: 10px;">
             <p class="bpanel1" style="text-align: center; color:rgb(99, 175, 192); font-family:'Courier New', Courier, monospace;
             font-weight:lighter; font-size: 22px; border-top-color:tomato; border-top-width: thick;">Developers</p>
             <p class="bpanel1" style="text-align: center; color:rgb(99, 175, 192); font-family:'Courier New', Courier, monospace;
@@ -47,8 +48,9 @@
             font-weight:lighter; font-size: 22px; border-top-color:tomato; border-top-width: thick;">Resources</p>
             <p class="bpanel1" style="text-align: center; color:rgb(99, 175, 192); font-family:'Courier New', Courier, monospace;
             font-weight:lighter; font-size: 22px; border-top-color:tomato; border-top-width: thick;">Contact</p>
-        </div>
+         </div>
         
         {{> footer}}
-    </body>
+     </body>
+    </div>
 </html>
