@@ -7,13 +7,15 @@
         align-content: center;
         padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 10px;
         text-align: center; color:rgb(99, 175, 192); font-family:'Courier New', Courier, monospace; font-weight: lighter; font-size: 12px;
-        background-color:rgb(48, 55, 61);
-        border-style: solid;
-        border-color: rgb(50, 71, 88);
-        width: 30%;
-        border-radius: 4px;
-        border-style: solid;
+        background-color:rgb(48, 55, 61); border-color: rgb(50, 71, 88); width: 30%; border-radius: 4px; border-style: solid;
         border-width: thin;
+    }
+    .bpanel1 {
+        align-content: center;  margin-bottom: auto;
+        padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 10px;
+        text-align: center; color:rgb(99, 175, 192); font-family: Helvetica; font-weight: normal; font-size: 14px;
+        background-color:rgb(36, 41, 53); border-color: rgb(41, 58, 71); height: 430px; border-radius: 3.5px;
+        border-style: groove; border-width: normal; display: table-cell;
     }
 </style>
 
@@ -33,6 +35,20 @@
         <div>
             <p class="panel1">Join the community blog at http://www.example.bonesblah.net</p>
         </div>
+        <br> <br> <br>
+        <div style="display:table; width: 100%; table-layout:fixed; border-spacing: 10px;">
+            <p class="bpanel1" style="text-align: center; color:rgb(99, 175, 192); font-family:'Courier New', Courier, monospace;
+            font-weight:lighter; font-size: 22px; border-top-color:tomato; border-top-width: thick;">Developers</p>
+            <p class="bpanel1" style="text-align: center; color:rgb(99, 175, 192); font-family:'Courier New', Courier, monospace;
+            font-weight:lighter; font-size: 22px; border-top-color:tomato; border-top-width: thick;">Projects</p>
+            <p class="bpanel1" style="text-align: center; color:rgb(99, 175, 192); font-family:'Courier New', Courier, monospace;
+            font-weight:lighter; font-size: 22px; border-top-color:tomato; border-top-width: thick;">Media</p>
+            <p class="bpanel1" style="text-align: center; color:rgb(99, 175, 192); font-family:'Courier New', Courier, monospace;
+            font-weight:lighter; font-size: 22px; border-top-color:tomato; border-top-width: thick;">Resources</p>
+            <p class="bpanel1" style="text-align: center; color:rgb(99, 175, 192); font-family:'Courier New', Courier, monospace;
+            font-weight:lighter; font-size: 22px; border-top-color:tomato; border-top-width: thick;">Contact</p>
+        </div>
+        
         {{> footer}}
     </body>
 </html>
