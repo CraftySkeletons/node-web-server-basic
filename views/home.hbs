@@ -1,6 +1,6 @@
 <style>
     .p1 {
-        color:rgb(62, 165, 189); font-family: Helvetica; font-weight: normal; font-size: 14px;
+        color:rgb(62, 177, 202); font-family: Helvetica; font-weight: normal; font-size: 14px;
     }
     .panel1 {
         margin: auto; 
@@ -13,9 +13,12 @@
     .bpanel1 {
         align-content: center; margin-bottom: auto;
         padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 10px;
-        text-align: center; color:rgb(99, 175, 192); font-family: Helvetica; font-weight: normal; font-size: 14px;
-        background-color:rgb(12, 12, 15); border-color: rgb(41, 58, 71); height: 430px; border-radius: 3.5px;
+        text-align: center; color:rgb(96, 197, 219); font-family: Helvetica; font-weight: normal; font-size: 14px;
+        background-color:rgb(12, 12, 15); border-color: rgb(57, 88, 112); height: 430px; border-radius: 3.5px;
         border-style: groove; border-width: normal; display: table-cell;
+    }
+    .istyle1 { 
+        padding: 25px;
     }
 </style>
 
@@ -26,16 +29,20 @@
         <meta name="viewport" content="width=device-width">
         <title>Overview</title>
     </head>
-    <div style="width: 1900px; max-width: 1920px; margin: 0 auto; max-height: height: 430px;">
+    <div style="width: 1880px; max-width: 1920px; margin: 0 auto; max-height: height: 430px;">
      <body style="background-color:rgb(10, 10, 12);">
         {{> header}}
             <p class="p1" style="text-align: center;">| Apps |</p>
         <div>
-            <p class="panel1">Use the new web chat application here http://www.example.bonesblah.net</p>
+            <p class="panel1">
+                <img class="istyle1" src="https://cdn.discordapp.com/attachments/483753659918843906/544682542800961546/skeletonLINK.png" alt="">
+            </p>
         </div>
             <p class="p1" style="text-align: center;">| Blog |</p>
         <div>
-            <p class="panel1">Join the community blog at http://www.example.bonesblah.net</p>
+            <p class="panel1">
+                <img class="istyle1" src="https://cdn.discordapp.com/attachments/483753659918843906/544995689415966740/skeletonHUB.png" alt="">
+            </p>
         </div>
         <br> <br> <br>
         <div style="display:table; width: 100%; max-width: 1920px; margin: 0 auto; table-layout:fixed; border-spacing: 10px;">
@@ -49,8 +56,7 @@
             font-weight:lighter; font-size: 22px; border-top-color:tomato; border-top-width: thick; margin: auto">Resources</p>
             <p class="bpanel1" style="text-align: center; color:rgb(99, 175, 192); font-family:'Courier New', Courier, monospace;
             font-weight:lighter; font-size: 22px; border-top-color:tomato; border-top-width: thick; margin: auto">Contact</p>
-         </div>
-        
+        </div>
         {{> footer}}
      </body>
     </div>
