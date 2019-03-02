@@ -42,7 +42,7 @@ hbs.registerHelper('shoutText', (text) => {
 // Route handler (Home)
 app.get('/', (req, res) => {
     res.render('home.hbs', {
-        pageTitle: './	C	R	A	F	T	Y			S	K	E	L	E	T	O	N	S	-	/'
+        pageTitle: '- Welcome to the developer site! Here you can learn about our developed applications and connect to the community! -'
         // welcomeMessage: 'Welcome'
     });
 });
@@ -50,14 +50,14 @@ app.get('/', (req, res) => {
 // About
 app.get('/about', (req, res) => {
     res.render('about.hbs', {
-        pageTitle: './	C	R	A	F	T	Y			S	K	E	L	E	T	O	N	S	-	/'
+        pageTitle: '- Welcome to the developer site! Here you can learn about our developed applications and connect to the community! -'
     });
 });
 
 // News
 app.get('/news', (req, res) => {
     res.render('news.hbs', {
-        pageTitle: './	C	R	A	F	T	Y			S	K	E	L	E	T	O	N	S	-	/'
+        pageTitle: '- Welcome to the developer site! Here you can learn about our developed applications and connect to the community! -'
     });
 });
 
